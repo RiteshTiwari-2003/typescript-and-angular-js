@@ -12,4 +12,7 @@ class Car{
 
 
 }
-const object=new Car();//initialize object 
+const obj=new Car();//initialize object 
+obj.checkSpeed();//50
+obj.acc();//+70
+obj.checkSpeed();//120
