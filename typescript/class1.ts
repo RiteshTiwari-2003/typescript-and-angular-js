@@ -1,4 +1,4 @@
-class Car{
+class Vehicle{
     speed:number;
     constructor(){
         this.speed=50;
@@ -7,12 +7,12 @@ class Car{
         return this.speed+=70;
     }
     checkSpeed():string{
-        return `The speed of the car is ${this.speed}`
+        return `The speed of the vehicle is ${this.speed}`
     }
 
 
 }
-const obj=new Car();//initialize object 
-obj.checkSpeed();//50
-obj.acc();//+70
-obj.checkSpeed();//120
+const vehicleObj = new Vehicle();//initialize object 
+console.log(vehicleObj.checkSpeed());//50
+console.log(vehicleObj.acc());//+70
+console.log(vehicleObj.checkSpeed());//120
