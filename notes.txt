@@ -59,6 +59,29 @@ using a typescript compiler (tsc).
           age;type
       }
 
+--> types in typescript :-
+-> Number 
+  let age:number;
+-> String  
+let name:string;
+-> Boolean
+let status:boolean;
+-> Object 
+let employee:object;
+-> array
+let employeename:string[]=[];
+-> Tuples
+let empdata: [string,number,string]=("anuj",23,"noida")
+--> enum, unknown , any, void, never, union.
 
-
+--> condition (same like javascript)
+--> loops
+--> array
+--> function
+oops (object oriented programming)
+--> class, object , constructor 
+--> class: it is a container where we can store multiple data like variable , functions and its properties .
+-->  object : instance of cllass , with the help of it we can access the properties of a class .
+--> constructor : it is used to initialize data when object is created it means it called automatically.
+-> we want to create a car class where default speed of car is 50km/h , when we call accellator the speed is increased by 70
 
