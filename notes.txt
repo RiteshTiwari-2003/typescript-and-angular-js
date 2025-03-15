@@ -1,0 +1,52 @@
+--> Anguter :- it is an open source , cross platform , javascript framework which is used to develop ui (called a user interface) (frontend)
+--> open source : free available 
+--> cross platform : perform and working on any platform , linux , window or mac etc.
+it is a javascript framework 
+--> framework :- framework is basically combination of multiple library, classes and runtime envoirment. so basically framework is the combination of multiple functionality 
+and advantage of these funvctionality are basically iwth the help of it we can develop our programm very easily and fastly.
+
+--> in starting aroun 2012 anguler known as anguler js (anguler 1)
+     --> we can write all the code in vanilla javascript(pure javascript code)
+--> but in 2016 , it introduced anguler 2 (from there it is known as anguler only )
+     --> write code in typescript (typescript is the superset of javascript) (type script support data type feature so the javascript is loosly type language 
+     we cannot define data type in javascript , but with the help of typescript we can define data type and we can use interfaces generic classess , generic function)
+     --> 2 to 19 version 
+     --> in anguler js :- controller base approach 
+     --> but in anguler :- component based approach 
+
+-> prerequisits for anguler:
+     -> typescript 
+     -> software 
+        -> Node js >= 20 version 
+        -> vscode 
+
+
+--> typescript :- typescript is the superset of javascript ,it builds on top of javascript , javascript code is executed through the browser 
+in every of the browser there is javascript engine and that engine is compile the javascript code and give us the output that is the internal process.
+but browser does not understand typescript , so we need to convert that typescript into javascript then that javascript run into browser
+these are the thing that you shoud or must aware of this 
+typescript give us platform to write some advance code and that code is covert into javascript then that code just linked with our application.
+first we write a typescript code , then we compile the typescript code into plain javascript code (vanilaa javascript code) the old javascript not in es6 javascript 
+using a typescript compiler (tsc).
+  --> typescript :- .ts
+
+  eg:  typescript ---.  typescript compiler  ---->  javascript 
+  ---> it uses the javascript syntex guys and add additoinal features like support data types oops feature like getter setter , abstract, interfaces 
+  generics .
+  -- > javascript is loosly typed language while type script is strongly typed language 
+--> install type script :
+   npm install typescript --g (g means globaly)
+
+
+--> how we run typescript program 
+   --> open folder in cmd or terminal 
+   --> tsc first.ts
+   --> node first.js
+   -->       the sum is 9 
+
+--> typescript datatypes:-
+     --> it used type annotation to specify explicit type for identifiers such as for variables , functions , objects etc.
+
+     syntex:---
+     
+
