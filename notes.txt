@@ -47,6 +47,18 @@ using a typescript compiler (tsc).
 --> typescript datatypes:-
      --> it used type annotation to specify explicit type for identifiers such as for variables , functions , objects etc.
 
-     syntex:---
-     
+     syntex:---  type after an identifier
+     eg:
+     let variablename : type = value;
+     const constantname :type = value;
+     eg:
+     let arrayName :type[];
+     eg:
+      let person :{
+          name:type,
+          age;type
+      }
+
+
+
 
