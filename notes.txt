@@ -85,3 +85,8 @@ oops (object oriented programming)
 --> constructor : it is used to initialize data when object is created it means it called automatically.
 -> we want to create a car class where default speed of car is 50km/h , when we call accellator the speed is increased by 70
 
+-->   Access modifier :- it change the visibility of the properties and method of the class 
+    -> private :- accessible with in the class 
+    -> protected :- within the class and its derived class
+    -> public :- public means accessible anywhere 
+    
