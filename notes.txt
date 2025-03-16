@@ -89,4 +89,31 @@ oops (object oriented programming)
     -> private :- accessible with in the class 
     -> protected :- within the class and its derived class
     -> public :- public means accessible anywhere 
-    
+
+
+--> getter and setter :  it allow control access to the properties of class , get and set keywords are used to define,, it define as a method but call as a properties
+the getter method return the value of the property(accessor)
+the setter method update the properties value (mutator)
+class person{
+     fullName:string;
+     constructor(private firstName:string,private lastName:string){
+          this.fullName=`${firstName}${lastName}`
+
+     }
+     get empName():string{
+          return this.fullName;
+     }
+     set empName(newName:string){
+          this.fullName=newName;
+     }
+}
+const obj=new person("sumit","joshi");
+console.log(obj.empName);//getter
+obj.empName="anurag singh";
+console.log(obj.empName);
+
+--> ** inheritence : the class reuse the property and method of another class that is known as the inheritence .
+the class which inherit the properties and method is called child class (derived class)
+the class whose properties or methods are inherited is called super class or parent class
+   to inherit the class we use the extends keyword same as javascript
+** to call a constructor of a parent class in the constructor of child class we can use the super() method.
