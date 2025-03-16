@@ -126,3 +126,15 @@ first we need to inherit it.
 an abstract class contains one or more abstract methods.in abstract class there must be a abstract method .
 and in that abstract method we can not define anything ,
 an abstract method does not contains implementation. only we declare 
+
+--> interface:
+it define the contracts within our code. it is just like a skeletun where we can declare the common behaviours like method and properties 
+and they are define where they implements 
+-> to define interface we have interface keyword 
+like interface interface_name{
+
+}
+to access interface in a class we have implements keywords
+class classname implements interfacename{
+     
+}
