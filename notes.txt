@@ -117,3 +117,12 @@ the class which inherit the properties and method is called child class (derived
 the class whose properties or methods are inherited is called super class or parent class
    to inherit the class we use the extends keyword same as javascript
 ** to call a constructor of a parent class in the constructor of child class we can use the super() method.
+
+--> abstract class :-
+it is used to define common behavious for derived classes to extends 
+-> abstract keyword is used for it .
+--> an abastract class can not be initialized, we  can not create object of abstract class , if we want to access properties and method ofabstract class 
+first we need to inherit it. 
+an abstract class contains one or more abstract methods.in abstract class there must be a abstract method .
+and in that abstract method we can not define anything ,
+an abstract method does not contains implementation. only we declare 
