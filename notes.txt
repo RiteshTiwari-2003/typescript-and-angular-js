@@ -138,3 +138,13 @@ to access interface in a class we have implements keywords
 class classname implements interfacename{
      
 }
+
+Generics :- it allow us write reusable and generalized form of function , interface and classes.
+function identity<T>(arg:T):T{
+     return arg;
+}
+generic type which allow it to accept any type as an argument and return the same type
+eg:
+let num=identity(101);
+let str=identitiy("summit");
+let arr=identity([5,6,7]);
