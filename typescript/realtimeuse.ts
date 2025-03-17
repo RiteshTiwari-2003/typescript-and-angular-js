@@ -28,6 +28,10 @@ const userService=new Service<User>();
 userService.create({id:1,name:"ritesh",email:"abc@gmsil.com"});
 userService.create({id:2,name:"anuj",email:"abcs@gmail.com"});
 console.log(userService.getAll());
+userService.delete(0);
+console.log("-------");
+
+console.log(userService.getAll());
 const prodService=new Service<Product>();
 prodService.create({id:1,pname:"ritesh",price:9999});
 prodService.create({id:2,pname:"anuj",price:99999});
